@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   #                 DESC
 
   s.homepage     = "https://github.com/xlunsheng/ZYRunTimeCot"
-  # s.screenshots  = "www.baidu.com", "www.163.com"
+  # s.screenshots  = "www.baidu.com"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +90,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "runtime/**/*.{h,m}", "Classes/**/*.{h,m}"
-  s.exclude_files = "runtime/Exclude"
+  s.source_files  = "runtime/**/*.{h,m}"
+  # s.exclude_files = "runtime/Exclude"
 
   s.public_header_files = "runtime/**/*.h"
 
