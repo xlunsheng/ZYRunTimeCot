@@ -7,30 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D98E0F1421426A240066BD7C /* ZYRunTimeCot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98E0F0A21426A240066BD7C /* ZYRunTimeCot.framework */; };
-		D98E0F1921426A240066BD7C /* ZYRunTimeCotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D98E0F1821426A240066BD7C /* ZYRunTimeCotTests.m */; };
 		D98E0F1B21426A240066BD7C /* ZYRunTimeCot.h in Headers */ = {isa = PBXBuildFile; fileRef = D98E0F0D21426A240066BD7C /* ZYRunTimeCot.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D98E0F2621426B340066BD7C /* MyTest.h in Headers */ = {isa = PBXBuildFile; fileRef = D98E0F2421426B340066BD7C /* MyTest.h */; };
 		D98E0F2721426B340066BD7C /* MyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D98E0F2521426B340066BD7C /* MyTest.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D98E0F1521426A240066BD7C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D98E0F0121426A230066BD7C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D98E0F0921426A240066BD7C;
-			remoteInfo = ZYRunTimeCot;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		D98E0F0A21426A240066BD7C /* ZYRunTimeCot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZYRunTimeCot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98E0F0D21426A240066BD7C /* ZYRunTimeCot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYRunTimeCot.h; sourceTree = "<group>"; };
 		D98E0F0E21426A240066BD7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D98E0F1321426A240066BD7C /* ZYRunTimeCotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYRunTimeCotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D98E0F1821426A240066BD7C /* ZYRunTimeCotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYRunTimeCotTests.m; sourceTree = "<group>"; };
-		D98E0F1A21426A240066BD7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D98E0F2421426B340066BD7C /* MyTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTest.h; sourceTree = "<group>"; };
 		D98E0F2521426B340066BD7C /* MyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,14 +28,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D98E0F1021426A240066BD7C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D98E0F1421426A240066BD7C /* ZYRunTimeCot.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -58,7 +35,6 @@
 			isa = PBXGroup;
 			children = (
 				D98E0F0C21426A240066BD7C /* ZYRunTimeCot */,
-				D98E0F1721426A240066BD7C /* ZYRunTimeCotTests */,
 				D98E0F0B21426A240066BD7C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				D98E0F0A21426A240066BD7C /* ZYRunTimeCot.framework */,
-				D98E0F1321426A240066BD7C /* ZYRunTimeCotTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,15 +56,6 @@
 				D98E0F2521426B340066BD7C /* MyTest.m */,
 			);
 			path = ZYRunTimeCot;
-			sourceTree = "<group>";
-		};
-		D98E0F1721426A240066BD7C /* ZYRunTimeCotTests */ = {
-			isa = PBXGroup;
-			children = (
-				D98E0F1821426A240066BD7C /* ZYRunTimeCotTests.m */,
-				D98E0F1A21426A240066BD7C /* Info.plist */,
-			);
-			path = ZYRunTimeCotTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,24 +91,6 @@
 			productReference = D98E0F0A21426A240066BD7C /* ZYRunTimeCot.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D98E0F1221426A240066BD7C /* ZYRunTimeCotTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D98E0F2121426A240066BD7C /* Build configuration list for PBXNativeTarget "ZYRunTimeCotTests" */;
-			buildPhases = (
-				D98E0F0F21426A240066BD7C /* Sources */,
-				D98E0F1021426A240066BD7C /* Frameworks */,
-				D98E0F1121426A240066BD7C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D98E0F1621426A240066BD7C /* PBXTargetDependency */,
-			);
-			name = ZYRunTimeCotTests;
-			productName = ZYRunTimeCotTests;
-			productReference = D98E0F1321426A240066BD7C /* ZYRunTimeCotTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,9 +101,6 @@
 				ORGANIZATIONNAME = "谢伦生";
 				TargetAttributes = {
 					D98E0F0921426A240066BD7C = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
-					D98E0F1221426A240066BD7C = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -173,20 +118,12 @@
 			projectRoot = "";
 			targets = (
 				D98E0F0921426A240066BD7C /* ZYRunTimeCot */,
-				D98E0F1221426A240066BD7C /* ZYRunTimeCotTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D98E0F0821426A240066BD7C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D98E0F1121426A240066BD7C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,23 +141,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D98E0F0F21426A240066BD7C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D98E0F1921426A240066BD7C /* ZYRunTimeCotTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D98E0F1621426A240066BD7C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D98E0F0921426A240066BD7C /* ZYRunTimeCot */;
-			targetProxy = D98E0F1521426A240066BD7C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D98E0F1C21426A240066BD7C /* Debug */ = {
@@ -385,38 +306,6 @@
 			};
 			name = Release;
 		};
-		D98E0F2221426A240066BD7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ZYRunTimeCotTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xls.ZYRunTimeCotTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D98E0F2321426A240066BD7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ZYRunTimeCotTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xls.ZYRunTimeCotTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -434,15 +323,6 @@
 			buildConfigurations = (
 				D98E0F1F21426A240066BD7C /* Debug */,
 				D98E0F2021426A240066BD7C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D98E0F2121426A240066BD7C /* Build configuration list for PBXNativeTarget "ZYRunTimeCotTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D98E0F2221426A240066BD7C /* Debug */,
-				D98E0F2321426A240066BD7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
