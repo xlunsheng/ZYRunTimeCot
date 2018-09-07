@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/xlunsheng/ZYRunTimeCot.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/xlunsheng/ZYRunTimeCot.git", :commit =>"eb72e11",:tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
