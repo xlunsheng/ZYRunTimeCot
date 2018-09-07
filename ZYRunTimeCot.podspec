@@ -24,11 +24,11 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  #   s.description  = <<-DESC
+  #                 DESC
 
   s.homepage     = "https://github.com/xlunsheng/ZYRunTimeCot"
-  s.screenshots  = "www.baidu.com", "www.163.com"
+  # s.screenshots  = "www.baidu.com", "www.163.com"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   s.source_files  = "runtime/*", "Classes/**/*.{h,m}"
   s.exclude_files = "runtime/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
