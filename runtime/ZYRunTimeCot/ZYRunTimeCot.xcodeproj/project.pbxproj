@@ -10,6 +10,8 @@
 		D98E0F1421426A240066BD7C /* ZYRunTimeCot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98E0F0A21426A240066BD7C /* ZYRunTimeCot.framework */; };
 		D98E0F1921426A240066BD7C /* ZYRunTimeCotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D98E0F1821426A240066BD7C /* ZYRunTimeCotTests.m */; };
 		D98E0F1B21426A240066BD7C /* ZYRunTimeCot.h in Headers */ = {isa = PBXBuildFile; fileRef = D98E0F0D21426A240066BD7C /* ZYRunTimeCot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D98E0F2621426B340066BD7C /* MyTest.h in Headers */ = {isa = PBXBuildFile; fileRef = D98E0F2421426B340066BD7C /* MyTest.h */; };
+		D98E0F2721426B340066BD7C /* MyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D98E0F2521426B340066BD7C /* MyTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		D98E0F1321426A240066BD7C /* ZYRunTimeCotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYRunTimeCotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98E0F1821426A240066BD7C /* ZYRunTimeCotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYRunTimeCotTests.m; sourceTree = "<group>"; };
 		D98E0F1A21426A240066BD7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98E0F2421426B340066BD7C /* MyTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTest.h; sourceTree = "<group>"; };
+		D98E0F2521426B340066BD7C /* MyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				D98E0F0D21426A240066BD7C /* ZYRunTimeCot.h */,
 				D98E0F0E21426A240066BD7C /* Info.plist */,
+				D98E0F2421426B340066BD7C /* MyTest.h */,
+				D98E0F2521426B340066BD7C /* MyTest.m */,
 			);
 			path = ZYRunTimeCot;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98E0F2621426B340066BD7C /* MyTest.h in Headers */,
 				D98E0F1B21426A240066BD7C /* ZYRunTimeCot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98E0F2721426B340066BD7C /* MyTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
