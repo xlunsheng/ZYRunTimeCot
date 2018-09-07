@@ -90,10 +90,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "runtime/**/*.{h,m}"
+  s.source_files  = "runtime/ZYRunTimeCot/ZYRunTimeCot/*.{h,m}"
   # s.exclude_files = "runtime/Exclude"
 
-  s.public_header_files = "runtime/**/*.h"
+  s.public_header_files = "runtime/ZYRunTimeCot/ZYRunTimeCot/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
